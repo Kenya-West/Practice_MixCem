@@ -1,4 +1,5 @@
 #  Смена картинок
 ## Инструкция
 ### Откройте Lazarus
-Откройте Lazarus и
+1. Откройте Lazarus. Перед вами будет запущена IDE Lazarus
+![] (http://i.imgur.com/auecrPM.png)
