@@ -27,11 +27,8 @@
 В примере показан вызов формы Form3 в обычном  окне после щелчка на кнопке Button1.
 
     procedure TForm1.Button1Click(Sender: TObject);
-    
     begin
-    
-        Form2.Show;
-        
+        Form2.Show; 
     end;
 
 ####Показ формы как модального окна
@@ -40,11 +37,8 @@
 Пример показа формы Form3 в модальном окне после щелчка на кнопке Button2.
 
     procedure TForm1.Button2Click(Sender: TObject);
-    
     begin
-    
         Form3.ShowModal;
-        
     end;
 
 Модальные окна хорошо подходят для задания всевозможных настроек, выполнения ввода промежуточных значений, отображения результатов.
@@ -186,21 +180,21 @@ Caption</td>
 
     procedure TfrmGeneral.Button1Click(Sender: TObject);
     begin
-    frmOptions.Show;
+        frmOptions.Show;
     end;
     
 9. Первая кнопка формы Главная  (кнопка О программе) вызывает форму О программе в модальном окне с помощью метода  ShowModal.,/p>
 
     procedure TfrmGeneral.Button2Click(Sender: TObject);
     begin
-    frmAbout.ShowModal;
+        frmAbout.ShowModal;
     end;
     
 10. Третья кнопка формы Главная (Кнопка ОК) закрывает главное окно.
 
     procedure TfrmGeneral.Button3Click(Sender: TObject);
     begin
-    Close;
+        Close;
     end;
     
 11. Открываем программный код формы Опции (модуль Unit2).В модуле Unit2 в разделе implementation  записать директиву uses:
@@ -213,7 +207,7 @@ Caption</td>
     
     procedure TFrmOptions.FormCreate(Sender: TObject);
     begin
-    frmOptions.Edit1.text:=frmGeneral.Caption;
+        frmOptions.Edit1.text:=frmGeneral.Caption;
     end;
     
 13. Кнопка ОК формы Опции. По щелчку на этой кнопке будет происходить изменение цвета главной формы.
@@ -229,7 +223,7 @@ Caption</td>
 14. Кнопка Закрыть формы Опции. По щелчку на этой кнопке закрывается окно Опции.
     procedure TFrmOptions.Button2Click(Sender: TObject);
     begin
-    close;
+        close;
     end;
     
 15. Переходим в программный код формы О программе (модуль Unit3).В модуле Unit3 в разделе implementation записать директиву uses.
@@ -242,7 +236,7 @@ Caption</td>
 
     procedure TfrmAbout.Button1Click(Sender: TObject);
     begin
-    Close;
+        Close;
     end;
     
 17. Проект готов. Сохраните проект и проверьте его работу.
