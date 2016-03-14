@@ -1,0 +1,38 @@
+object frmGeneral: TfrmGeneral
+  Left = 238
+  Height = 63
+  Top = 147
+  Width = 320
+  Caption = 'Главная'
+  ClientHeight = 63
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 26
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Опции'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 25
+    Top = 16
+    Width = 91
+    Caption = 'О программе'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Закрыть'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+end

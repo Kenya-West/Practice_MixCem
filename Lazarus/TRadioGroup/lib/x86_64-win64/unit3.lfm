@@ -1,0 +1,27 @@
+object frmAbout: TfrmAbout
+  Left = 238
+  Height = 103
+  Top = 523
+  Width = 320
+  Caption = 'О программе'
+  ClientHeight = 103
+  ClientWidth = 320
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Выход'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 130
+    Height = 15
+    Top = 23
+    Width = 43
+    Caption = 'А-за-за!'
+    ParentColor = False
+  end
+end
